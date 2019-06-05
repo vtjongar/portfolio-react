@@ -1,11 +1,21 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import { Tabs, Tab } from 'react-mdl';
+
 
 class Projects extends Component {
+  constructor(props) {
+    super(props);
+  }
+
   render() {
     return(
-      <div><h1>Projects Page</h1></div>
+      <div>
+        <Tabs>
+          <Tab>Front End</Tab>
+          <Tab>Full Stack</Tab>
+        </Tabs>
+      </div>
     )
   }
 }
-
 export default Projects;
