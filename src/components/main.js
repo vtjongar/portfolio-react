@@ -1,19 +1,19 @@
 import React from "react";
 import LandingPage from "./landingpage";
 import { Switch, Route } from "react-router";
-import AboutMe from "./aboutme";
+import About from "./about";
 import Contact from "./contact";
-import Projects from "./projects";
-import Resume from "./resume";
+import Work from "./work";
+
 
 const Main = () => {
   return (
     <Switch>
       <Route exact path="/" component={LandingPage} />
-      <Route path="/aboutme" component={AboutMe} />
+      <Route path="/about" component={About} />
       <Route path="/contact" component={Contact} />
-      <Route path="/projects" component={Projects} />
-      <Route path="/resume" component={Resume} />
+      <Route path="/work" component={Work} />
+     
     </Switch>
   );
 };

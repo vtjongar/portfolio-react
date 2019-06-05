@@ -7,7 +7,7 @@ class Contact extends Component {
       <div className="contact-body">
         <Grid className="contact-grid">
           <Cell col={6}>
-            <h2>Vanessa Henderson</h2>
+            <h2>let's build something awesome, togther!</h2>
             <img
               src="http://i67.tinypic.com/rhv72c.jpg"
               alt="avatar"
@@ -23,7 +23,7 @@ class Contact extends Component {
             </p>
           </Cell>
           <Cell col={6}>
-            <h2>Contact Me</h2>
+            <h2>get in contact</h2>
             <hr />
 
             <div className="contact-list">
@@ -34,7 +34,7 @@ class Contact extends Component {
                   <ListItemContent
                     style={{ fontSize: "30px", fontFamily: "Anton" }}
                   >
-                    <i className="fa fa-envelope" aria-hidden="true" />
+                    <i className="fa fa-at" aria-hidden="true" />
                      vanessatjhenderson@gmail.com
                   </ListItemContent>
                 </ListItem>
