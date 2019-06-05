@@ -13,12 +13,12 @@ class Landing extends Component {
             />
 
             <div className="banner-text">
-              <h1>Web Developer</h1>
+              <h1>web developer</h1>
 
               <hr />
 
               <p>
-                HTML/CSS | Bootsrap | JavaScript | React | NodeJS | Express{" "}
+                html/css | bootsrap | javascript | react | nodeJS | expressJS
               </p>
 
               <div className="social-links">

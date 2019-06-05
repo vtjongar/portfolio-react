@@ -1,45 +1,52 @@
-import React from "react";
-import logo from "./logo.svg";
+import React, { Component } from "react";
 import "./App.css";
 import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
 import Main from "./components/main";
 import { Link } from "react-router-dom";
 
-function App() {
-  return (
-    <div style={{ height: "300px", position: "relative" }}>
-      <Layout fixedHeader>
-        <Header
-          className="header-color"
-          title={
-            <span>
-              <span style={{ color: "#ddd" }}>Area / </span>
-              <strong>The Title</strong>
-            </span>
-          }
-        >
-          <Navigation>
-            <Link to="/resume">resume</Link>
-            <Link to="/aboutme">aboutme</Link>
-            <Link to="/projects">projects</Link>
-            <Link to="/contact">contact</Link>
-          </Navigation>
-        </Header>
-        <Drawer title="Title">
-          <Navigation>
-            <Link to="/resume">resume</Link>
-            <Link to="/aboutme">aboutme</Link>
-            <Link to="/projects">projects</Link>
-            <Link to="/contact">contact</Link>
-          </Navigation>
-        </Drawer>
-        <Content>
-          <div className="page-content" />
-          <Main />
-        </Content>
-      </Layout>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className="demo-big-content">
+        <Layout>
+          <Header
+            className="header-color"
+            title={
+              <Link style={{ textDecoration: "none", color: "white" }} to="/">
+                Tuff!
+              </Link>
+            }
+            scroll
+          >
+            <Navigation>
+              <Link to="/resume">resume</Link>
+              <Link to="/aboutme">about me</Link>
+              <Link to="/projects">projects</Link>
+              <Link to="/contact">contact</Link>
+            </Navigation>
+          </Header>
+          <Drawer
+            title={
+              <Link style={{ textDecoration: "none", color: "black" }} to="/">
+                Portfolio
+              </Link>
+            }
+          >
+            <Navigation>
+              <Link to="/resume">Resume</Link>
+              <Link to="/aboutme">About Me</Link>
+              <Link to="/projects">Projects</Link>
+              <Link to="/contact">Contact</Link>
+            </Navigation>
+          </Drawer>
+          <Content>
+            <div className="page-content" />
+            <Main />
+          </Content>
+        </Layout>
+      </div>
+    );
+  }
 }
 
 export default App;
