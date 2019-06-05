@@ -10,6 +10,7 @@ function App() {
     <div style={{ height: "300px", position: "relative" }}>
       <Layout fixedHeader>
         <Header
+          className="header-color"
           title={
             <span>
               <span style={{ color: "#ddd" }}>Area / </span>
