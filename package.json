@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^0.14.9",
-    "react-dom": "^0.14.9",
+    "react": "^15.6.2",
+    "react-dom": "^15.6.2",
     "react-mdl": "^1.11.0",
     "react-router-dom": "^5.0.0",
     "react-scripts": "3.0.1",

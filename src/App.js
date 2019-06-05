@@ -3,6 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
 import Main from "./components/main";
+import Link from 'react-router-dom'
 
 function App() {
   return (
@@ -17,18 +18,18 @@ function App() {
           }
         >
           <Navigation>
-            <a href="/">Link</a>
-            <a href="/">Link</a>
-            <a href="/">Link</a>
-            <a href="/">Link</a>
+            <Link to="/resume">resume</Link>
+            <Link to="/aboutme">aboutme</Link>
+            <Link to="/projects">projects</Link>
+            <Link to="/contact">contact</Link>
           </Navigation>
         </Header>
         <Drawer title="Title">
           <Navigation>
-            <a href="/">Link</a>
-            <a href="/">Link</a>
-            <a href="/">Link</a>
-            <a href="/">Link</a>
+            <Link to="/">Link</Link>
+            <Link to="/">Link</Link>
+            <Link to="/">Link</Link>
+            <Link to="/">Link</Link>
           </Navigation>
         </Drawer>
         <Content>
