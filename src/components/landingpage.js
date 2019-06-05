@@ -11,6 +11,7 @@ class Landing extends Component {
               alt="avatar"
               className="avatar-img"
             />
+
             <div className="banner-text">
               <h1>Web Developer</h1>
 
@@ -19,6 +20,32 @@ class Landing extends Component {
               <p>
                 HTML/CSS | Bootsrap | JavaScript | React | NodeJS | Express{" "}
               </p>
+
+              <div className="social-links">
+                <a
+                  href="https://www.linkedin.com/in/vanessa-tj-henderson/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i className="fa fa-linkedin-square" aria-hidden="true" />
+                </a>
+
+                <a
+                  href="https://github.com/vtjongar"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i className="fa fa-github-square" aria-hidden="true" />
+                </a>
+
+                <a
+                  href="http://google.com"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i className="fa fa-at" aria-hidden="true" />
+                </a>
+              </div>
             </div>
           </Cell>
         </Grid>
