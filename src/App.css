@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 
 .header-color {
   background: #aa4b6b; /* fallback for old browsers */
@@ -16,8 +16,9 @@
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .demo-big-content {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
+
 .landing-grid {
   background: #aa4b6b; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -40,24 +41,14 @@
   height: 100%;
 }
 
-.App {
-  background: #aa4b6b; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #3b8d99,
-    #6b6b83,
-    #aa4b6b
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #3b8d99,
-    #6b6b83,
-    #aa4b6b
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
 
 .projects-grid {
   display: flex;
+  margin-top: 10em;
+}
+
+.projects {
+ 
 }
 
 .contact-body {
@@ -68,24 +59,9 @@
   justify-content: center;
   padding-top: 2em;
 }
-.about-page {
-  background: #aa4b6b; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #3b8d99,
-    #6b6b83,
-    #aa4b6b
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #3b8d99,
-    #6b6b83,
-    #aa4b6b
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
 
 .role {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .contact-grid {
   text-align: center;
@@ -98,11 +74,11 @@
 }
 
 .contact-grid h2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .contact-grid p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
 }
 
@@ -120,7 +96,6 @@
 .avatar-img {
   height: 250px;
   padding-top: 5em;
-
 }
 
 .banner-text {
@@ -152,7 +127,7 @@
 .social-links {
   display: flex;
   justify-content: center;
-  
+
   width: 50%;
   margin: auto;
 }
@@ -167,8 +142,19 @@
   padding: 8px;
 }
 
-.linkedin-icon {
+.about-page {
+  text-align: center;
+ 
+ }
 
+ .about-image {
+   margin-top: 10em;
+  margin-bottom: 5em;
+ }
+
+ 
+
+.linkedin-icon {
   margin-right: 40px;
 }
 

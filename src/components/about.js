@@ -3,13 +3,14 @@ import React, { Component } from "react";
 class About extends Component {
   render() {
     return (
-      <div> 
-        <div className="about-content">
-       <img
+      <div className="about-page"> 
+        <img className="about-image"
               src="http://i67.tinypic.com/rhv72c.jpg"
               alt="avatar"
               style={{ height: "200px", width: "380px" }}
             />
+        <div className="about-text">
+       
 
 <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
               "At vero eos et accusamus et iusto odio dignissimos ducimus qui

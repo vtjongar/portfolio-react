@@ -47,7 +47,7 @@ class Projects extends Component {
               <Button colored>Live</Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
-              <IconButton name="share" />
+
             </CardMenu>
           </Card>
 
@@ -74,7 +74,7 @@ class Projects extends Component {
               <Button colored>Live</Button>
             </CardActions>
             <CardMenu style={{ color: "#000" }}>
-              <IconButton name="share" />
+ 
             </CardMenu>
           </Card>
 
@@ -101,7 +101,7 @@ class Projects extends Component {
               <Button colored>Live</Button>
             </CardActions>
             <CardMenu style={{ color: "#000" }}>
-              <IconButton name="share" />
+      
             </CardMenu>
           </Card>
         </div>
@@ -117,7 +117,7 @@ class Projects extends Component {
 
   render() {
     return (
-      <div className="category-tabs">
+      <div className="projects">
         <Tabs
           activeTab={this.state.activeTab}
           onChange={tabId => this.setState({ activeTab: tabId })}
