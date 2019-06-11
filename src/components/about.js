@@ -3,7 +3,8 @@ import React, { Component } from "react";
 class About extends Component {
   render() {
     return (
-      <div>
+      <div> 
+        <div className="about-content">
        <img
               src="http://i67.tinypic.com/rhv72c.jpg"
               alt="avatar"
@@ -18,6 +19,7 @@ class About extends Component {
               animi, id est laborum et dolorum fuga. Et harum quidem rerum
               facilis est et expedita distinctio."
             </p>
+            </div>
       </div>
 
       

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
 .header-color {
   background: #aa4b6b; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -13,7 +15,9 @@
     #aa4b6b
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-
+.demo-big-content {
+  font-family: 'Montserrat', sans-serif;
+}
 .landing-grid {
   background: #aa4b6b; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -36,10 +40,25 @@
   height: 100%;
 }
 
+.App {
+  background: #aa4b6b; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #3b8d99,
+    #6b6b83,
+    #aa4b6b
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #3b8d99,
+    #6b6b83,
+    #aa4b6b
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 .projects-grid {
   display: flex;
 }
-
 
 .contact-body {
   margin: auto;
@@ -49,7 +68,25 @@
   justify-content: center;
   padding-top: 2em;
 }
+.about-page {
+  background: #aa4b6b; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #3b8d99,
+    #6b6b83,
+    #aa4b6b
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #3b8d99,
+    #6b6b83,
+    #aa4b6b
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 
+.role {
+  font-family: 'Montserrat', sans-serif;
+}
 .contact-grid {
   text-align: center;
   justify-content: center;
@@ -61,11 +98,11 @@
 }
 
 .contact-grid h2 {
-  font-family: "Anton", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .contact-grid p {
-  font-family: "Oxygen", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
 }
 
@@ -83,6 +120,7 @@
 .avatar-img {
   height: 250px;
   padding-top: 5em;
+
 }
 
 .banner-text {
@@ -113,13 +151,27 @@
 
 .social-links {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  
   width: 50%;
   margin: auto;
 }
 
+.skills {
+  margin-bottom: 50px;
+}
+
 .social-links i {
-  color: white;
+  color: rgb(72, 70, 70);
   font-size: 5em;
   padding: 8px;
+}
+
+.linkedin-icon {
+
+  margin-right: 40px;
+}
+
+.github-icon {
+  margin-right: 40px;
 }

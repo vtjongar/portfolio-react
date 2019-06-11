@@ -32,7 +32,7 @@ class Contact extends Component {
 
                 <ListItem>
                   <ListItemContent
-                    style={{ fontSize: "30px", fontFamily: "Anton" }}
+                    style={{ fontSize: "30px", fontFamily: "Montserrat" }} 
                   >
                     <i className="fa fa-at" aria-hidden="true" />
                      vanessatjhenderson@gmail.com
@@ -41,7 +41,7 @@ class Contact extends Component {
 
                 <ListItem>
                   <ListItemContent
-                    style={{ fontSize: "30px", fontFamily: "Anton" }}
+                    style={{ fontSize: "30px", fontFamily: "Montserrat" }}
                   >
                     <i className="fa fa-skype" aria-hidden="true" />
                     live:vanessatjhenderson

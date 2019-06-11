@@ -24,12 +24,14 @@ class Projects extends Component {
       return (
         <div className="projects-grid">
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-            <CardTitle
+            <CardTitle className="card-title"
               style={{
                 color: "#000",
                 height: "200px",
+
                 background:
                   "url(https://live.staticflickr.com/65535/48044340947_a427193d76_b.jpg) center / cover"
+            
               }}
             >
               Hangman
@@ -45,6 +47,33 @@ class Projects extends Component {
               <Button colored>Live</Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "fff",
+                height: "200px",
+                background:
+                  "url(https://live.staticflickr.com/65535/48044405742_c9b9fe4903_b.jpg) center / cover"
+              }}
+            >
+              Recipes
+            </CardTitle>
+            <CardText>
+              This app allows users to search for different types of recipes
+              using an API through ReactJS.
+              <br />
+              <br />
+              Stack: ReactJS/React-MDL
+            </CardText>
+            <CardActions border>
+              <Button colored>GitHub Repo</Button>
+              <Button colored>Live</Button>
+            </CardActions>
+            <CardMenu style={{ color: "#000" }}>
               <IconButton name="share" />
             </CardMenu>
           </Card>

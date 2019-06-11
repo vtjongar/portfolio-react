@@ -12,8 +12,8 @@ class App extends Component {
           <Header
             className="header-color"
             title={
-              <Link style={{ textDecoration: "none", color: "white" }} to="/">
-                Tuff!
+              <Link style={{ textDecoration: "none", color: "white", fontFamily: "Montserrat"  }} to="/">
+                Vanessa Henderson
               </Link>
             }
             scroll

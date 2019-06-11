@@ -12,17 +12,17 @@ class Landing extends Component {
               className="avatar-img"
             />
 
-            <div className="banner-text">
-              <h1>web developer</h1>
+            <div>
+              <h1 className="role">web developer</h1>
 
-              <hr />
-
-              <p>
-                html/css | bootsrap | javascript | react | nodeJS | expressJS | mongoDB
-              </p>
+              <h6 className="skills">
+                html/css | bootsrap | javascript | react | nodeJS | expressJS |
+                mongoDB
+              </h6>
 
               <div className="social-links">
                 <a
+                  className="linkedin-icon"
                   href="https://www.linkedin.com/in/vanessa-tj-henderson/"
                   rel="noopener noreferrer"
                   target="_blank"
@@ -31,6 +31,7 @@ class Landing extends Component {
                 </a>
 
                 <a
+                  className="github-icon"
                   href="https://github.com/vtjongar"
                   rel="noopener noreferrer"
                   target="_blank"
@@ -39,6 +40,7 @@ class Landing extends Component {
                 </a>
 
                 <a
+                  className="email-icon"
                   href="http://google.com"
                   rel="noopener noreferrer"
                   target="_blank"
