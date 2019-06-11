@@ -19,7 +19,7 @@ class App extends Component {
             scroll
           >
             <Navigation>
-              
+              <Link to="/">home</Link>
               <Link to="/about">about</Link>
               <Link to="/work">work</Link>
               <Link to="/contact">contact</Link>
@@ -33,7 +33,6 @@ class App extends Component {
             }
           >
             <Navigation>
-          
               <Link to="/about">about</Link>
               <Link to="/work">work</Link>
               <Link to="/contact">Contact</Link>
