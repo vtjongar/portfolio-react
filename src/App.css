@@ -36,6 +36,11 @@
   height: 100%;
 }
 
+.projects-grid {
+  display: flex;
+}
+
+
 .contact-body {
   margin: auto;
   position: fixed;
