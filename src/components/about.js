@@ -24,23 +24,28 @@ class About extends Component {
             upon graduating, i knew i wanted to be a developer.
           </p>
 
-          <p className="about-paragraph"
+          <p
+            className="about-paragraph"
             style={{
               width: "450",
               margin: "auto",
               paddingTop: "1em"
-            }}>
-            Technology is beautiful. it makes our lives easier and solves
-            problems across the entire globe. that's why i'm proud to call
-            myself a developer. on top of that, i get to do what i love. create.
+            }}
+          >
+            Technology is beautiful. it makes our lives easier and solves all
+            kinds of crazy problems across the globe. that's why i'm proud to
+            call myself a developer. on top of that, i get to do what i love.
+            create.
           </p>
 
-          <p className="about-paragraph"
+          <p
+            className="about-paragraph"
             style={{
               width: "450",
               margin: "auto",
               paddingTop: "1em"
-            }}>
+            }}
+          >
             Speaking of create, check out my work to see what i can do. visit my
             contact page if you'd like to build something cool with me.{" "}
           </p>
