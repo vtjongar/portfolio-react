@@ -59,6 +59,7 @@ class Contact extends Component {
                     />
                     live:vanessatjhenderson
                   </ListItemContent>
+                  
                 </ListItem>
               </List>
             </div>

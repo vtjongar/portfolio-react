@@ -48,14 +48,14 @@ class Projects extends Component {
             <CardText style={{ color: "#000" }}>
               I built this app based on the Hangman game. The tech stack includes HTML, CSS, and Vanilla Javascript.
             </CardText>
-            <CardActions border>
+            <CardActions border className="card">
              <a href="https://vtjongar.github.io/hangman2/"> <Button colored>Live Site</Button></a>
-              <a href="https://github.com/vtjongar/hangman2"><Button colored>GitHub Repo</Button></a>
+              <a href="https://github.com/vtjongar/hangman2"><Button colored>Code</Button></a>
             </CardActions>
             <CardMenu style={{ color: "#A5A5A5" }} />
           </Card>
 
-          <Card
+          <Card 
             shadow={2}
             style={{
               minWidth: "450",
@@ -65,7 +65,7 @@ class Projects extends Component {
               backgroundColor: "#E4DCDD"
             }}
           >
-            <CardTitle
+            <CardTitle 
               style={{
                 color: "000",
                 height: "200px",
@@ -78,11 +78,11 @@ class Projects extends Component {
             <CardText style={{ color: "#000" }}>
               I built this app using an API through ReactJS. Users can search for various kinds of recipes. The tech stack includes ReactJS and React-MDL.
             </CardText>
-            <CardActions border>
+            <CardActions border className="card">
             <a href="https://tuffrecipes.netlify.com/"><Button colored>
                 Live Site
               </Button></a>
-             <a href="https://github.com/vtjongar/tuff-recipes"> <Button colored>GitHub Repo</Button></a>
+             <a href="https://github.com/vtjongar/tuff-recipes"> <Button colored>Code</Button></a>
             </CardActions>
             <CardMenu style={{ color: "#A5A5A5" }} />
           </Card>
@@ -116,9 +116,9 @@ class Projects extends Component {
             <CardText style={{ color: "#000" }}>
               I built this app for people around the world to be able to share their opinions on different topics.
             </CardText>
-            <CardActions border>
-             <a href="https://vtjongar.github.io/hangman2/"> <Button colored>Live Site</Button></a>
-              <a href="https://github.com/vtjongar/opinions"><Button colored>GitHub Repo</Button></a>
+            <CardActions border className="card">
+             <a href="https://google.com"> <Button colored>Live Site</Button></a>
+              <a href="https://github.com/vtjongar/opinions"><Button colored>Code</Button></a>
             </CardActions>
             <CardMenu style={{ color: "#A5A5A5" }} />
           </Card>
@@ -135,8 +135,8 @@ class Projects extends Component {
           onChange={tabId => this.setState({ activeTab: tabId })}
           ripple
         >
-          <Tab>Front-End</Tab>
-          <Tab>Full Stack</Tab>
+          <Tab> <div style={{ color: "#fff" }}>Front-End</div></Tab>
+          <Tab><div style={{ color: "#fff" }}>Full-Stack</div></Tab>
         </Tabs>
 
         <Grid>

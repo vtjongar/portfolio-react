@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
+import { Link } from "react-router-dom";
 class Landing extends Component {
   render() {
     return (
@@ -49,11 +50,14 @@ class Landing extends Component {
                   rel="noopener noreferrer"
                   target="_blank"
                 >
+                  <Link to="/contact" style={{ color: "white" }}>
                   <i
                     className="fa fa-at"
                     aria-hidden="true"
                     style={{ color: "#a5a5a5" }}
                   />
+              </Link>
+                
                 </a>
               </div>
             </div>

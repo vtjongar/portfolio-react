@@ -12,30 +12,68 @@ class App extends Component {
           <Header
             className="header-color"
             title={
-              <Link style={{ textDecoration: "none", color: "white", fontFamily: "Montserrat"  }} to="/">
+              <Link
+                style={{
+                  textDecoration: "none",
+                  color: "white",
+                  fontFamily: "Montserrat"
+                }}
+                to="/"
+              >
                 Vanessa Henderson
               </Link>
             }
             scroll
           >
             <Navigation>
-              <Link to="/" style={{ color: "white" }}>home</Link>
-              <Link to="/about" style={{ color: "white" }}>about</Link>
-              <Link to="/work" style={{ color: "white" }}>work</Link>
-              <Link to="/contact" style={{ color: "white" }}>contact</Link>
+              <Link to="/" style={{ color: "white" }}>
+                home <span className="line">|</span>
+              </Link>
+              <Link to="/about" style={{ color: "white" }}>
+                about <span className="line">|</span>
+              </Link>
+              <Link to="/work" style={{ color: "white" }}>
+                work <span className="line">|</span>{" "}
+              </Link>
+              <div style={{ color: "white"}}>
+              <a style={{ color: "white", textDecoration: "none"}}
+                  
+                  href="https://drive.google.com/file/d/1lHUja2ME9WICvATki28HBez55AFXi5u2/view"
+                 
+                 
+                >resume </a>
+              </div>
+              <Link to="/contact" style={{ color: "white" }}>
+                contact
+              </Link>
             </Navigation>
           </Header>
-          <Drawer 
+          <Drawer
             title={
               <Link style={{ textDecoration: "none", color: "white" }} to="/">
                 Home
               </Link>
-            } style={{ backgroundColor: "#766780", color: "#000" }} 
+            }
+            style={{ backgroundColor: "#766780", color: "#000" }}
           >
             <Navigation>
-              <Link to="/about" style={{ color: "white" }}>about</Link>
-              <Link to="/work" style={{ color: "white" }}>work</Link>
-              <Link to="/contact" style={{ color: "white" }}>Contact</Link>
+              <Link to="/about" style={{ color: "white" }}>
+                about
+              </Link>
+              <Link to="/work" style={{ color: "white" }}>
+                work
+              </Link>
+              <div style={{ color: "white"}}>
+              <a style={{ color: "white", textDecoration: "none"}}
+                  
+                  href="https://drive.google.com/file/d/1lHUja2ME9WICvATki28HBez55AFXi5u2/view"
+                 
+                 
+                >resume </a>
+              </div>
+              <Link to="/contact" style={{ color: "white" }}>
+                Contact
+              </Link>
             </Navigation>
           </Drawer>
           <Content>

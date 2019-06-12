@@ -41,7 +41,9 @@
 
   color: white;
 }
-
+.line {
+  margin-left: 2em;
+}
 .projects-grid {
   display: flex;
   margin-top: 10em;
@@ -148,22 +150,27 @@ margin-top: 3em;
   height: 200px;
 }
 .about-page {
+  max-width: 200em;
+  display: flex;
+  flex-direction: row;
 
-  
+justify-content: center;
 
+  margin-top: 12em;
 
-  margin-top: 10em;
-  text-align: center;
 
   color: white;
 }
-
+.about-text {
+  text-align: center;
+}
 .about-image {
   margin-bottom: 5em;
   border-radius: 25px;
 }
 .about-paragraph {
   max-width: 500px;
+  
 }
 
 .linkedin-icon {
