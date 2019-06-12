@@ -9,7 +9,7 @@ class Contact extends Component {
         <Grid className="contact-grid">
           <Cell className="contact-paragraph" col={6}>
             <h2 style={{ color: "white" }}>
-              let's build something amazing together!
+              let's build something amazing together
             </h2>
             <img className="thinking-image" src="/images/think2.png" style={{ height: "200px", width: "200px" }}/>
             <p
