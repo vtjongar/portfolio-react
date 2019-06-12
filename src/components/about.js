@@ -35,7 +35,7 @@ class About extends Component {
             Technology is beautiful. it makes our lives easier and solves all
             kinds of crazy problems across the globe. that's why i'm proud to
             call myself a developer. on top of that, i get to do what i love.
-            create.
+            CREATE.
           </p>
 
           <p
