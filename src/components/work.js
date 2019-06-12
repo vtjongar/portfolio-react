@@ -23,93 +23,105 @@ class Projects extends Component {
     if (this.state.activeTab === 0) {
       return (
         <div className="projects-grid">
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-            <CardTitle className="card-title"
+          <Card
+            shadow={2}
+            style={{
+              minWidth: "450",
+              maxWidth: "450",
+              maxHeight: "350",
+              margin: "auto",
+              backgroundColor: "#E4DCDD"
+            }}
+          >
+            <CardTitle
+              className="card-title"
               style={{
                 color: "#000",
                 height: "200px",
 
                 background:
-                  "url(https://live.staticflickr.com/65535/48044340947_a427193d76_b.jpg) center / cover"
-            
+                  "url(https://live.staticflickr.com/65535/48045241043_cf4695956d_b.jpg) center / cover"
               }}
             >
               Hangman
             </CardTitle>
-            <CardText>
-              I designed this app based on the Hangman game.
-              <br />
-              <br />
-              Stack: HTML/CSS/Vanilla Javascript
+            <CardText style={{ color: "#000" }}>
+              I built this app based on the Hangman game. The tech stack includes HTML, CSS, and Vanilla Javascript.
             </CardText>
             <CardActions border>
-              <Button colored>GitHub Repo</Button>
-              <Button colored>Live</Button>
+             <a href="https://vtjongar.github.io/hangman2/"> <Button colored>Live Site</Button></a>
+              <a href="https://github.com/vtjongar/hangman2"><Button colored>GitHub Repo</Button></a>
             </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
-
-            </CardMenu>
+            <CardMenu style={{ color: "#A5A5A5" }} />
           </Card>
 
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+          <Card
+            shadow={2}
+            style={{
+              minWidth: "450",
+              maxWidth: "450",
+              maxHeight: "322",
+              margin: "auto",
+              backgroundColor: "#E4DCDD"
+            }}
+          >
             <CardTitle
               style={{
-                color: "fff",
+                color: "000",
                 height: "200px",
                 background:
-                  "url(https://live.staticflickr.com/65535/48044405742_c9b9fe4903_b.jpg) center / cover"
+                  "url(https://live.staticflickr.com/65535/48045150463_07cfe86268_b.jpg) center / cover"
               }}
             >
               Recipes
             </CardTitle>
-            <CardText>
-              This app allows users to search for different types of recipes
-              using an API through ReactJS.
-              <br />
-              <br />
-              Stack: ReactJS/React-MDL
+            <CardText style={{ color: "#000" }}>
+              I built this app using an API through ReactJS. Users can search for various kinds of recipes. The tech stack includes ReactJS and React-MDL.
             </CardText>
             <CardActions border>
-              <Button colored>GitHub Repo</Button>
-              <Button colored>Live</Button>
+            <a href="https://tuffrecipes.netlify.com/"><Button colored>
+                Live Site
+              </Button></a>
+             <a href="https://github.com/vtjongar/tuff-recipes"> <Button colored>GitHub Repo</Button></a>
             </CardActions>
-            <CardMenu style={{ color: "#000" }}>
- 
-            </CardMenu>
-          </Card>
-
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-            <CardTitle
-              style={{
-                color: "fff",
-                height: "200px",
-                background:
-                  "url(https://live.staticflickr.com/65535/48044405742_c9b9fe4903_b.jpg) center / cover"
-              }}
-            >
-              Recipes
-            </CardTitle>
-            <CardText>
-              This app allows users to search for different types of recipes
-              using an API through ReactJS.
-              <br />
-              <br />
-              Stack: ReactJS/React-MDL
-            </CardText>
-            <CardActions border>
-              <Button colored>GitHub Repo</Button>
-              <Button colored>Live</Button>
-            </CardActions>
-            <CardMenu style={{ color: "#000" }}>
-      
-            </CardMenu>
+            <CardMenu style={{ color: "#A5A5A5" }} />
           </Card>
         </div>
       );
     } else if (this.state.activeTab === 1) {
       return (
-        <div>
-          <h1>This is my full stack work!</h1>
+        <div className="projects-grid">
+          <Card className="hangman"
+            shadow={2}
+            style={{
+              minWidth: "450",
+              maxWidth: "450",
+              maxHeight: "350",
+              margin: "auto",
+              backgroundColor: "#E4DCDD"
+            }}
+          >
+            <CardTitle
+              className="card-title"
+              style={{
+                color: "#000",
+                height: "200px",
+
+                background:
+                  "url(https://live.staticflickr.com/65535/48046186866_1267066faf_b.jpg) center / cover"
+              }}
+            >
+              Opinions
+            </CardTitle>
+            <CardText style={{ color: "#000" }}>
+              I built this app for people around the world to be able to share their opinions on different topics.
+            </CardText>
+            <CardActions border>
+             <a href="https://vtjongar.github.io/hangman2/"> <Button colored>Live Site</Button></a>
+              <a href="https://github.com/vtjongar/opinions"><Button colored>GitHub Repo</Button></a>
+            </CardActions>
+            <CardMenu style={{ color: "#A5A5A5" }} />
+          </Card>
         </div>
       );
     }

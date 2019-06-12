@@ -19,23 +19,23 @@ class App extends Component {
             scroll
           >
             <Navigation>
-              <Link to="/">home</Link>
-              <Link to="/about">about</Link>
-              <Link to="/work">work</Link>
-              <Link to="/contact">contact</Link>
+              <Link to="/" style={{ color: "white" }}>home</Link>
+              <Link to="/about" style={{ color: "white" }}>about</Link>
+              <Link to="/work" style={{ color: "white" }}>work</Link>
+              <Link to="/contact" style={{ color: "white" }}>contact</Link>
             </Navigation>
           </Header>
-          <Drawer
+          <Drawer 
             title={
-              <Link style={{ textDecoration: "none", color: "black" }} to="/">
+              <Link style={{ textDecoration: "none", color: "white" }} to="/">
                 Home
               </Link>
-            }
+            } style={{ backgroundColor: "#766780", color: "#000" }} 
           >
             <Navigation>
-              <Link to="/about">about</Link>
-              <Link to="/work">work</Link>
-              <Link to="/contact">Contact</Link>
+              <Link to="/about" style={{ color: "white" }}>about</Link>
+              <Link to="/work" style={{ color: "white" }}>work</Link>
+              <Link to="/contact" style={{ color: "white" }}>Contact</Link>
             </Navigation>
           </Drawer>
           <Content>
