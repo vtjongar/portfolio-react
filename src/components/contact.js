@@ -11,7 +11,7 @@ class Contact extends Component {
             <h2 style={{ color: "white" }}>
               let's build something amazing together
             </h2>
-            <img className="thinking-image" src="/images/think2.png" style={{ height: "200px", width: "200px" }}/>
+            <img className="thinking-image" src="/images/idea.png" style={{ height: "200px", width: "200px" }}/>
             <p
               style={{
                 width: "75%",
@@ -36,8 +36,8 @@ class Contact extends Component {
               <List>
                 <ListItem>
                   <ListItemContent
-                    style={{ fontSize: "20px", fontFamily: "Montserrat", color: "#A5A5A5" }}
-                  >
+                    style={{ fontSize: "20px", fontFamily: "Crete Round", color: "#EF9F35" }}
+                  > 
                     <i
                       className="fa fa-at"
                       aria-hidden="true"
@@ -50,7 +50,7 @@ class Contact extends Component {
 
                 <ListItem>
                   <ListItemContent
-                    style={{ fontSize: "20px", fontFamily: "Montserrat", color: "#A5A5A5" }}
+                    style={{ fontSize: "20px", fontFamily: "Crete Round", color: "#EF9F35" }}
                   >
                     <i
                       className="fa fa-skype"

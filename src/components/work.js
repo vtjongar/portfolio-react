@@ -133,7 +133,7 @@ class Projects extends Component {
         <Tabs
           activeTab={this.state.activeTab}
           onChange={tabId => this.setState({ activeTab: tabId })}
-          ripple
+     
         >
           <Tab> <div style={{ color: "#fff" }}>Front-End</div></Tab>
           <Tab><div style={{ color: "#fff" }}>Full-Stack</div></Tab>
