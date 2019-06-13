@@ -43,9 +43,9 @@ class Projects extends Component {
                   "url(https://live.staticflickr.com/65535/48045241043_cf4695956d_b.jpg) center / cover"
               }}
             >
-              Hangman
+             <div  className="card-title">Hangman</div> 
             </CardTitle>
-            <CardText style={{ color: "#000" }}>
+            <CardText className="card-text" style={{ color: "#000" }}>
               I built this app based on the Hangman game. The tech stack includes HTML, CSS, and Vanilla Javascript.
             </CardText>
             <CardActions border className="card">
@@ -71,11 +71,12 @@ class Projects extends Component {
                 height: "200px",
                 background:
                   "url(https://live.staticflickr.com/65535/48045150463_07cfe86268_b.jpg) center / cover"
+                
               }}
-            >
-              Recipes
+            ><div className="card-title">
+              Recipes</div>
             </CardTitle>
-            <CardText style={{ color: "#000" }}>
+            <CardText className="card-text" style={{ color: "#000" }}>
               I built this app using an API through ReactJS. Users can search for various kinds of recipes. The tech stack includes ReactJS and React-MDL.
             </CardText>
             <CardActions border className="card">
@@ -111,9 +112,9 @@ class Projects extends Component {
                   "url(https://live.staticflickr.com/65535/48046186866_1267066faf_b.jpg) center / cover"
               }}
             >
-              Opinions
+              <div style={{ fontFamily: "Poiret One", paddingTop: "5em" }}>Opinions</div>
             </CardTitle>
-            <CardText style={{ color: "#000" }}>
+            <CardText className="card-text" style={{ color: "#000" }}>
               I built this app for people around the world to be able to share their opinions on different topics.
             </CardText>
             <CardActions border className="card">

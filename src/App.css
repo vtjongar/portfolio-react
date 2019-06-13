@@ -3,39 +3,41 @@
 @import url('https://fonts.googleapis.com/css?family=Crete+Round&display=swap');
 
 @import url('https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
 .header-color {
-  background: rgb(54, 69, 29); /* fallback for old browsers */
+  background: #aa4b6b; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    rgb(54, 69, 29),
-    rgb(54, 69, 29),
-    rgb(54, 69, 29)
+    #3b8d99,
+    #6b6b83,
+    #aa4b6b
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    rgb(54, 69, 29),
-    rgb(54, 69, 29),
-    rgb(54, 69, 29)
+    #3b8d99,
+    #6b6b83,
+    #aa4b6b
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 }
 .demo-big-content {
-  font-family: 'Crete Round', serif;
+  font-family: 'Poiret One', cursive;
 }
 
 .landing-grid {
   background: #aa4b6b; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    rgb(54, 69, 29),
-    rgb(54, 69, 29),
-    rgb(54, 69, 29)
+    #3b8d99,
+    #6b6b83,
+    #aa4b6b
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    rgb(54, 69, 29),
-    rgb(54, 69, 29),
-    rgb(54, 69, 29)
+    #3b8d99,
+    #6b6b83,
+    #aa4b6b
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
   position: fixed;
@@ -63,7 +65,7 @@
 }
 
 .contact-body {
-  margin-top: 5em;
+  margin-top: 3em;
   position: fixed;
   width: 100%;
   height: 100%;
@@ -75,7 +77,12 @@ hr {
 }
 
 .role {
-  font-family: 'Crete Round', serif;
+  font-family: 'Poiret One', cursive;
+}
+
+.contact {
+  margin-top: 2em;
+  margin-left: 1em;
 }
 .contact-grid {
   text-align: center;
@@ -88,28 +95,42 @@ hr {
 }
 
 .contact-grid h2 {
-  font-family: 'Crete Round', serif;
+  font-family: 'Poiret One', cursive;
 }
 
 .contact-grid p {
-  font-family: 'Crete Round', serif;
+  font-family: 'Poiret One', cursive;
   font-weight: bold;
 }
 
+.card-title {
+ font-family: 'Poiret One', cursive;
+  padding-top: 5em;
+  font-size: 25px;
+}
+
+.card-text {
+   font-family: 'Poiret One', cursive;
+}
+
 .contact-grid hr {
-  border-top: 0px dotted #ef9f35;
+  border-top: 0px dotted #F2EFE2;
   width: 50%;
   margin: auto;
 }
 
+
 .contact-list i {
-  color: #ef9f35;
+  color: #F2EFE2;
   padding-right: 2rem;
 }
 
 .thinking-image {
   margin-top: 3em;
+  margin-bottom: 3em;
 }
+
+
 
 .list {
   padding-top: 4rem;
@@ -118,10 +139,10 @@ hr {
 .contact-list {
   margin-left: 200px;
 
-  border: 1px solid #ef9f35;
+  
   border-radius: 25px;
   display: flex;
-  justify-content: center;
+  
 }
 
 .social-links {
@@ -134,7 +155,7 @@ hr {
 
 .skills {
   margin-bottom: 50px;
-  font-family: 'Crete Round', serif;
+  font-family: 'Playfair Display', serif;
   font-size: 20px;
 }
 
@@ -150,7 +171,7 @@ hr {
   height: 200px;
 }
 .about-page {
-  max-width: 200em;
+ 
   display: flex;
   flex-direction: row;
 
@@ -163,58 +184,70 @@ hr {
   
 }
 .about-paragraph-first {
-  background-color: #F2EFE2;
+
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
-  color: black;
+  color: #F2EFE2;
   padding-left: 20px;
   padding-right: 20px;
-  max-width: 900px;
-  font-size: 20px;
-  font-family: 'Patrick Hand', cursive;
+  max-width: 700px;
+  font-size: 25px;
+  font-family: 'Playfair Display', serif;
 }
 
 .about-paragraph-last {
-  background-color: #F2EFE2;
+
   padding-bottom: 25px;
-  color: black;
+  color: #F2EFE2;
   padding-left: 20px;
   padding-right: 20px;
   margin-bottom: 10em;
 
-  max-width: 900px;
+  max-width: 700px;
   font-size: 20px;
-  font-family: 'Patrick Hand', cursive;
+font-family: 'Playfair Display', serif;
 
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
+}
+
+.about-paragraph-2nd-to-last {
+
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #F2EFE2;
+font-family: 'Playfair Display', serif;
+  max-width: 800px;
+  font-size: 20px;
+
 }
 .about-word {
   color: #f2efe2;
   margin-top: 3em;
   text-align: center;
-  font-family: 'Patrick Hand', cursive;
+  font-family: 'Poiret One', cursive;
 }
 .about-text {
 
   max-height: 900px;
+  
 }
 .about-image {
   margin-right: 150px;
-  margin-bottom: 5em;
-  margin-top: 10em;
-  border-radius: 25px;
+  margin-top: 5em;
+
+  border-radius: 50px;
  
 }
 .about-paragraph {
   background-color: #F2EFE2;
   padding-left: 20px;
   padding-right: 20px;
-  color: black;
+  color: black; 
 
-  max-width: 900px;
-  font-size: 20px;
-  font-family: 'Patrick Hand', cursive;
+  max-width: 800px;
+  font-size: 15px;
+ font-family: 'Poiret One', cursive;
 }
 
 .linkedin-icon {

@@ -12,31 +12,34 @@ class Contact extends Component {
               let's build something amazing together
             </h2>
             <img className="thinking-image" src="/images/idea.png" style={{ height: "200px", width: "200px" }}/>
-            <p
+            <div className="quote"
               style={{
-                width: "75%",
+                width: "350px",
                 margin: "auto",
                 paddingTop: "1em",
                 color: "white"
+               
               }}
             >
-              "At vero eos et accusamus et iusto odio dignissimos ducimus qui
-              blanditiis praesentium voluptatum deleniti atque corrupti quos
-              dolores et quas molestias excepturi sint occaecati cupiditate non
-              provident, similique sunt in culpa qui officia deserunt mollitia
-              animi, id est laborum et dolorum fuga. Et harum quidem rerum
-              facilis est et expedita distinctio."
-            </p>
+              <p style={{ fontSize: "20"}}> "Creativity is inventing, </p>
+              <p style={{ fontSize: "20"}}> experimenting, growing, </p>
+              <p style={{ fontSize: "20"}}>taking risks, breaking rules,</p>
+              <p style={{ fontSize: "20"}}>making mistakes, </p>
+              <p style={{ fontSize: "20"}}>and having fun"</p>
+
+
+              
+            </div>
           </Cell>
           <Cell className="list" col={6}>
-            <h2 className="contact">contact</h2>
+            <h2 className="contact" style={{ fontFamily: "Poiret One", color: "#F2EFE2" }}>contact</h2>
             <hr />
 
             <div className="contact-list">
               <List>
                 <ListItem>
                   <ListItemContent
-                    style={{ fontSize: "20px", fontFamily: "Crete Round", color: "#EF9F35" }}
+                    style={{ fontSize: "20px", fontFamily: "Poiret One", color: "#F2EFE2" }}
                   > 
                     <i
                       className="fa fa-at"
@@ -50,7 +53,7 @@ class Contact extends Component {
 
                 <ListItem>
                   <ListItemContent
-                    style={{ fontSize: "20px", fontFamily: "Crete Round", color: "#EF9F35" }}
+                    style={{ fontSize: "20px", fontFamily: "Poiret One", color: "#F2EFE2" }}
                   >
                     <i
                       className="fa fa-skype"

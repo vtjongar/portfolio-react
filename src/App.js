@@ -16,7 +16,7 @@ class App extends Component {
                 style={{
                   textDecoration: "none",
                   color: "white",
-                  fontFamily: "Montserrat"
+                  fontFamily: " Poiret One"
                 }}
                 to="/"
               >
@@ -27,13 +27,13 @@ class App extends Component {
           >
             <Navigation>
               <Link to="/" style={{ color: "white" }}>
-                home <span className="line">|</span>
+                home 
               </Link>
               <Link to="/about" style={{ color: "white" }}>
-                about <span className="line">|</span>
+                about
               </Link>
               <Link to="/work" style={{ color: "white" }}>
-                work <span className="line">|</span>{" "}
+                work 
               </Link>
               <div style={{ color: "white"}}>
               <a style={{ color: "white", textDecoration: "none"}}
@@ -50,7 +50,7 @@ class App extends Component {
           </Header>
           <Drawer
             title={
-              <Link style={{ textDecoration: "none", color: "white" }} to="/">
+              <Link style={{ textDecoration: "none", color: "white", fontFamily:"Poiret One" }} to="/">
                 Home
               </Link>
             }
