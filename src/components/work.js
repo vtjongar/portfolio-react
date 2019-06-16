@@ -40,22 +40,28 @@ class Projects extends Component {
                 height: "200px",
 
                 background:
-                  "url(https://live.staticflickr.com/65535/48045241043_cf4695956d_b.jpg) center / cover"
+                  "url(https://live.staticflickr.com/65535/48074043972_cba61448d4_b.jpg) center / cover"
               }}
             >
-             <div  className="card-title">Hangman</div> 
+              <div className="card-title">Hangman</div>
             </CardTitle>
             <CardText className="card-text" style={{ color: "#000" }}>
-              I built this app based on the Hangman game. The tech stack includes HTML, CSS, and Vanilla Javascript.
+              I built this app based on the Hangman game. The tech stack
+              includes HTML, CSS, and Vanilla Javascript.
             </CardText>
             <CardActions border className="card">
-             <a href="https://vtjongar.github.io/hangman2/"> <Button colored>Live Site</Button></a>
-              <a href="https://github.com/vtjongar/hangman2"><Button colored>Code</Button></a>
+              <a href="https://vtjongar.github.io/hangman2/">
+                {" "}
+                <Button colored>Live Site</Button>
+              </a>
+              <a href="https://github.com/vtjongar/hangman2">
+                <Button colored>Code</Button>
+              </a>
             </CardActions>
             <CardMenu style={{ color: "#A5A5A5" }} />
           </Card>
 
-          <Card 
+          <Card
             shadow={2}
             style={{
               minWidth: "450",
@@ -65,25 +71,29 @@ class Projects extends Component {
               backgroundColor: "#E4DCDD"
             }}
           >
-            <CardTitle 
+            <CardTitle
               style={{
                 color: "000",
                 height: "200px",
                 background:
                   "url(https://live.staticflickr.com/65535/48045150463_07cfe86268_b.jpg) center / cover"
-                
               }}
-            ><div className="card-title">
-              Recipes</div>
+            >
+              <div className="card-title">Recipes</div>
             </CardTitle>
             <CardText className="card-text" style={{ color: "#000" }}>
-              I built this app using an API through ReactJS. Users can search for various kinds of recipes. The tech stack includes ReactJS and React-MDL.
+              I built this app using the recipe search API from Edamam. Users
+              can search for various kinds of recipes. The tech stack includes
+              ReactJS and NodeJS.
             </CardText>
             <CardActions border className="card">
-            <a href="https://tuffrecipes.netlify.com/"><Button colored>
-                Live Site
-              </Button></a>
-             <a href="https://github.com/vtjongar/tuff-recipes"> <Button colored>Code</Button></a>
+              <a href="https://tuffrecipes.netlify.com/">
+                <Button colored>Live Site</Button>
+              </a>
+              <a href="https://github.com/vtjongar/tuff-recipes">
+                {" "}
+                <Button colored>Code</Button>
+              </a>
             </CardActions>
             <CardMenu style={{ color: "#A5A5A5" }} />
           </Card>
@@ -92,7 +102,8 @@ class Projects extends Component {
     } else if (this.state.activeTab === 1) {
       return (
         <div className="projects-grid">
-          <Card className="hangman"
+          <Card
+            className="hangman"
             shadow={2}
             style={{
               minWidth: "450",
@@ -112,14 +123,22 @@ class Projects extends Component {
                   "url(https://live.staticflickr.com/65535/48046186866_1267066faf_b.jpg) center / cover"
               }}
             >
-              <div style={{ fontFamily: "Poiret One", paddingTop: "5em" }}>Opinions</div>
+              <div style={{ fontFamily: "Poiret One", paddingTop: "5em" }}>
+                Opinions
+              </div>
             </CardTitle>
             <CardText className="card-text" style={{ color: "#000" }}>
-              I built this app for people around the world to be able to share their opinions on different topics.
+              I built this app for people around the world to be able to share
+              their opinions on different topics.
             </CardText>
             <CardActions border className="card">
-             <a href="https://google.com"> <Button colored>Live Site</Button></a>
-              <a href="https://github.com/vtjongar/opinions"><Button colored>Code</Button></a>
+              <a href="https://google.com">
+                {" "}
+                <Button colored>Live Site</Button>
+              </a>
+              <a href="https://github.com/vtjongar/opinions">
+                <Button colored>Code</Button>
+              </a>
             </CardActions>
             <CardMenu style={{ color: "#A5A5A5" }} />
           </Card>
@@ -134,10 +153,14 @@ class Projects extends Component {
         <Tabs
           activeTab={this.state.activeTab}
           onChange={tabId => this.setState({ activeTab: tabId })}
-     
         >
-          <Tab> <div style={{ color: "#fff" }}>Front-End</div></Tab>
-          <Tab><div style={{ color: "#fff" }}>Full-Stack</div></Tab>
+          <Tab>
+            {" "}
+            <div style={{ color: "#fff" }}>Front-End</div>
+          </Tab>
+          <Tab>
+            <div style={{ color: "#fff" }}>Full-Stack</div>
+          </Tab>
         </Tabs>
 
         <Grid>

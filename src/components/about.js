@@ -60,7 +60,7 @@ what I love. Create.
               }}
             > 
             Speaking of create...
-            check out my <Link to="/work"><span>work</span></Link> to see what I can do.
+            check out some of my {" "}<Link to="/work"><span>side projects</span></Link> {" "}to see what I can do.
 
             </p>
 

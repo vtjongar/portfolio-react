@@ -33,7 +33,7 @@ class App extends Component {
                 about
               </Link>
               <Link to="/work" style={{ color: "white" }}>
-                work 
+                side projects
               </Link>
               <div style={{ color: "white"}}>
               <a style={{ color: "white", textDecoration: "none"}}
@@ -61,7 +61,7 @@ class App extends Component {
                 about
               </Link>
               <Link to="/work" style={{ color: "white" }}>
-                work
+                side projects
               </Link>
               <div style={{ color: "white"}}>
               <a style={{ color: "white", textDecoration: "none"}}
@@ -72,7 +72,7 @@ class App extends Component {
                 >resume </a>
               </div>
               <Link to="/contact" style={{ color: "white" }}>
-                Contact
+                contact
               </Link>
             </Navigation>
           </Drawer>
