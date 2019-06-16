@@ -3,7 +3,7 @@
 ## Description
 This is my portfolio. Just getting started, more awesome projects to come... 
 
-## Example
+## Preview
 ![ScreenShot](public/images/preview.png)
 
 ## Features
