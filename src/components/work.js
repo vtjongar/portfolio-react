@@ -129,13 +129,10 @@ class Projects extends Component {
             </CardTitle>
             <CardText className="card-text" style={{ color: "#000" }}>
               I built this app for people around the world to be able to share
-              their opinions on different topics.
+              their opinions on different topics. The tech stack includes
+              MongoDB, ExpressJS, Handlebars, and NodeJS.
             </CardText>
             <CardActions border className="card">
-              <a href="https://google.com">
-                {" "}
-                <Button colored>Live Site</Button>
-              </a>
               <a href="https://github.com/vtjongar/opinions">
                 <Button colored>Code</Button>
               </a>

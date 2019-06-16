@@ -1,17 +1,17 @@
 # Vanessa Henderson's Portfolio 
 
 ## Description
-This application is where my web developer portfolio lives. Just getting started, more awesome projects to come... 
+This is my portfolio. Just getting started, more awesome projects to come... 
 
-## Example
+## Preview
 ![ScreenShot](public/images/preview.png)
 
 ## Features
 - a landing page with a breif overview of what I do 
 - an about page that introduces who I am
-- a projects page that lists my projects with links to their code base and their live sites 
+- a projects page that lists my projects with links to their code bases and their live sites 
 - a link to my resume 
-- a contact page with information on how to get in contact with me 
+- a contact page with information on where to reach me 
 
 ## Technologies Used 
 - Node
