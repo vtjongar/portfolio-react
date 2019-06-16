@@ -11,7 +11,7 @@ This is my portfolio. Just getting started, more awesome projects to come...
 - an about page that introduces who I am
 - a projects page that lists my projects with links to their code bases and their live sites 
 - a link to my resume 
-- a contact page with information on how to reach me 
+- a contact page with information on where to reach me 
 
 ## Technologies Used 
 - Node
