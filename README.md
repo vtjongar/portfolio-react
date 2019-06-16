@@ -1,7 +1,7 @@
 # Vanessa Henderson's Portfolio 
 
 ## Description
-This application is where my web developer portfolio lives. Just getting started, more awesome projects to come... 
+This is my portfolio. Just getting started, more awesome projects to come... 
 
 ## Example
 ![ScreenShot](public/images/preview.png)
