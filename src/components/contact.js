@@ -11,49 +11,60 @@ class Contact extends Component {
             <h2 style={{ color: "white" }}>
               let's build something amazing together
             </h2>
-            <img className="thinking-image" src="/images/idea.png" style={{ height: "200px", width: "200px" }}/>
-            <div className="quote"
+            <img
+              className="thinking-image"
+              src="/images/idea.png"
+              style={{ height: "200px", width: "200px" }}
+            />
+            <div
+              className="quote"
               style={{
                 width: "350px",
                 margin: "auto",
                 paddingTop: "1em",
                 color: "white"
-               
               }}
             >
-              <p style={{ fontSize: "20"}}> "Creativity is inventing, </p>
-              <p style={{ fontSize: "20"}}> experimenting, growing, </p>
-              <p style={{ fontSize: "20"}}>taking risks, breaking rules,</p>
-              <p style={{ fontSize: "20"}}>making mistakes, </p>
-              <p style={{ fontSize: "20"}}>and having fun"</p>
-
-
-              
+              <p style={{ fontSize: "20" }}> "Creativity is inventing, </p>
+              <p style={{ fontSize: "20" }}> experimenting, growing, </p>
+              <p style={{ fontSize: "20" }}>taking risks, breaking rules,</p>
+              <p style={{ fontSize: "20" }}>making mistakes, </p>
+              <p style={{ fontSize: "20" }}>and having fun"</p>
             </div>
           </Cell>
           <Cell className="list" col={6}>
-            <h2 className="contact" style={{ fontFamily: "Poiret One", color: "#F2EFE2" }}>contact</h2>
+            <h2
+              className="contact"
+              style={{ fontFamily: "Poiret One", color: "#F2EFE2" }}
+            >
+              contact
+            </h2>
             <hr />
-
             <div className="contact-list">
               <List>
                 <ListItem>
                   <ListItemContent
-                    style={{ fontSize: "20px", fontFamily: "Poiret One", color: "#F2EFE2" }}
-                  > 
+                    style={{
+                      fontSize: "20px",
+                      fontFamily: "Poiret One",
+                      color: "#F2EFE2"
+                    }}
+                  >
                     <i
                       className="fa fa-at"
                       aria-hidden="true"
-                      style={{ fontSize: "35px"}}
-
+                      style={{ fontSize: "35px" }}
                     />
                     vanessatjhenderson@gmail.com
                   </ListItemContent>
                 </ListItem>
-
                 <ListItem>
                   <ListItemContent
-                    style={{ fontSize: "20px", fontFamily: "Poiret One", color: "#F2EFE2" }}
+                    style={{
+                      fontSize: "20px",
+                      fontFamily: "Poiret One",
+                      color: "#F2EFE2"
+                    }}
                   >
                     <i
                       className="fa fa-skype"
@@ -62,7 +73,6 @@ class Contact extends Component {
                     />
                     live:vanessatjhenderson
                   </ListItemContent>
-                  
                 </ListItem>
               </List>
             </div>
@@ -72,5 +82,4 @@ class Contact extends Component {
     );
   }
 }
-
 export default Contact;

@@ -82,7 +82,7 @@ hr {
 
 .contact {
   margin-top: 2em;
-  margin-left: 1em;
+  margin-right: 5em;
 }
 .contact-grid {
   text-align: center;
@@ -91,7 +91,6 @@ hr {
   height: 550px;
 
   color: #ef9f35;
-  margin-bottom: 20px;
 }
 
 .contact-grid h2 {
@@ -130,14 +129,8 @@ hr {
 }
 
 .list {
+  padding-left: 10em;
   padding-top: 4rem;
-}
-
-.contact-list {
-  margin-left: 200px;
-
-  border-radius: 25px;
-  display: flex;
 }
 
 .social-links {
