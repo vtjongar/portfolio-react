@@ -27,7 +27,7 @@ class App extends Component {
           >
             <Navigation>
               <Link to="/" style={{ color: "white" }}>
-                home 
+                home
               </Link>
               <Link to="/about" style={{ color: "white" }}>
                 about
@@ -35,13 +35,13 @@ class App extends Component {
               <Link to="/work" style={{ color: "white" }}>
                 side projects
               </Link>
-              <div style={{ color: "white"}}>
-              <a style={{ color: "white", textDecoration: "none"}}
-                  
+              <div style={{ color: "white" }}>
+                <a
+                  style={{ color: "white", textDecoration: "none" }}
                   href="https://drive.google.com/file/d/1lHUja2ME9WICvATki28HBez55AFXi5u2/view"
-                 
-                 
-                >resume </a>
+                >
+                  resume{" "}
+                </a>
               </div>
               <Link to="/contact" style={{ color: "white" }}>
                 contact
@@ -50,7 +50,14 @@ class App extends Component {
           </Header>
           <Drawer
             title={
-              <Link style={{ textDecoration: "none", color: "white", fontFamily:"Poiret One" }} to="/">
+              <Link
+                style={{
+                  textDecoration: "none",
+                  color: "white",
+                  fontFamily: "Poiret One"
+                }}
+                to="/"
+              >
                 Home
               </Link>
             }
@@ -63,13 +70,13 @@ class App extends Component {
               <Link to="/work" style={{ color: "white" }}>
                 side projects
               </Link>
-              <div style={{ color: "white"}}>
-              <a style={{ color: "white", textDecoration: "none"}}
-                  
+              <div style={{ color: "white" }}>
+                <a
+                  style={{ color: "white", textDecoration: "none" }}
                   href="https://drive.google.com/file/d/1lHUja2ME9WICvATki28HBez55AFXi5u2/view"
-                 
-                 
-                >resume </a>
+                >
+                  resume{" "}
+                </a>
               </div>
               <Link to="/contact" style={{ color: "white" }}>
                 contact

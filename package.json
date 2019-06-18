@@ -14,7 +14,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "gh-pages -d build",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -34,17 +34,5 @@
   },
   "devDependencies": {
     "@typescript-eslint/parser": "^1.9.0"
-  },
-  "description": "## Description This is my portfolio. Just getting started, more awesome projects to come...",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vtjongar/vanessahenderson.git"
-  },
-  "author": "Vanessa Henderson",
-  "license": "ISC",
-  "homepage": "https://vtjongar.github.io/vanessahenderson",
-  "bugs": {
-    "url": "https://github.com/vtjongar/vanessahenderson/issues"
   }
 }
